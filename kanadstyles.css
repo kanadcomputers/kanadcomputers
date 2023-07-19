@@ -3,9 +3,14 @@ html{
 }
 .bizname {
     background-color: #47b5ff;
-    font-size: x-large;
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 10%;
+    font-size: small;
     font-family: 'Bree Serif', serif;
     font-style: italic;
+    display: block;
 }
 
 .web_develop{
