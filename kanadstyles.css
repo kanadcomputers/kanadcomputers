@@ -1,0 +1,41 @@
+html{
+    margin-left: 10px;
+}
+.bizname {
+    background-color: #47b5ff;
+    font-size: x-large;
+    font-family: 'Bree Serif', serif;
+    font-style: italic;
+}
+
+.web_develop{
+    border: 10px ridge #f00;
+    background-color: #ff0;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.web_develop img{
+    Width: 100%;
+}
+
+.web_develop p{
+    font: small-caps bold 1.2rem sans-serif;
+    text-align: center;
+}
+
+.IT-sup {
+    border: 10px ridge #f00;
+    background-color: #ff0;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.IT_Sup img{
+    Width: 100%;
+}
+
+.IT-sup p{
+    font: small-caps bold 1.2rem sans-serif;
+    text-align: center;
+}
