@@ -1,26 +1,41 @@
-
-
-/*.logo-name {
-    font-size: 1.2rem;
-    font-family: 'Bree Serif', serif;
-    font-style: italic;
-}*/
-
-/*.cute-dog{
-    height: 200px;
-    width: 200px;
-    border: 5px solid black;
-    background-color: #47b5ff;
-    border-radius: 20%;
-} */
-
-.cute-dog{
+html{
     text-align: center;
-    font-size: xx-large;
 }
 
+.spec_img{
+    border: 5px solid black;
+}
+
+.logo-name{
+    font-size: xx-large;
+}
 .footer{
     background-color: blue;
-    font-size: 10px;
+    font-size: 15px;
     text-align: center;;
+}
+
+
+@media (min-width: 300px) and (max-width: 600px){
+html{
+    background-color: #6c3428; 
+}
+}
+
+@media (min-width: 601px) and (max-width:1200px){
+html{
+    background-color: #BA704f;
+}
+}
+
+@media (min-width: 1201px) and (max-width:1600px){
+    html{
+        background-color: #DFA878;
+    }
+}
+
+@media (min-width: 1601px){
+    html{
+        background-color: #CEE6F3;
+    }
 }
